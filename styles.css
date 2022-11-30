@@ -186,6 +186,8 @@ section {
 
   .designer {
     width: 20rem;
+     display: block;
+    margin: auto;
   }
 
   h3 {
