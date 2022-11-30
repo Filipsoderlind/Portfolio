@@ -1,0 +1,244 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  background-color: #0f0f0f;
+}
+
+h1 {
+  font-family: "Bebas Neue", display;
+  color: #fff;
+  font-size: 2rem;
+  margin: 1rem 0rem 0.6rem 0rem;
+  padding-right: 1rem;
+}
+
+h2 {
+  font-family: "Bebas Neue", display;
+  font-size: 5rem;
+  color: #fff;
+  margin-top: 6rem;
+  margin-left: 8rem;
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0px 15px rgb(255, 255, 255);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem;
+  margin-top: 2rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-left: 10rem;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  width: 40rem;
+}
+
+.mockup {
+  margin: auto;
+  display: block;
+  width: 55rem;
+  margin-top: 5rem;
+}
+
+.designsystemnurture {
+  margin: auto;
+  display: block;
+  width: 40rem;
+  margin-bottom: 15rem;
+}
+
+.lostcity {
+  margin: auto;
+  display: block;
+  width: 65rem;
+}
+
+.xaverpictures {
+  width: 30rem;
+  margin: auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.xaverlogo {
+  width: 20rem;
+  margin-top: 6rem;
+  margin-left: 6rem;
+  margin-bottom: 4rem;
+}
+
+.xaverpictures2 {
+  margin: auto;
+  display: block;
+  width: 50rem;
+  margin-bottom: 15rem;
+  margin-top: 5rem;
+}
+
+.graphicmanual {
+  margin: auto;
+  display: block;
+  width: 30rem;
+}
+
+.thorp {
+  margin: 0;
+  margin-left: 8rem;
+  margin-bottom: 4rem;
+}
+
+.bottom {
+  margin-bottom: 15rem;
+}
+
+.backarrow {
+  width: 0.7rem;
+  margin-right: 1rem;
+}
+
+button {
+  background-color: #0f0f0f;
+  border-width: 0.3rem;
+  border-color: #fff;
+}
+
+button:hover {
+  background-color: #ffffff19;
+}
+
+.buttonmargin {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.back {
+  width: auto;
+  font-size: 1.1rem;
+  margin: 0;
+  width: 5rem;
+}
+
+/* Extra small devices (600px and down) */
+@media only screen and (max-width: 700px) {
+  p {
+    font-size: 1rem;
+    max-width: 18rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    line-height: 1.3rem;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  .backarrow {
+    width: 1rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  button {
+    border-width: 0;
+  }
+
+  .back {
+    display: none;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .graphicmanual {
+    width: 20rem;
+  }
+
+  .mockup {
+    width: 20rem;
+  }
+
+  .designsystemnurture {
+    width: 20rem;
+  }
+
+  .xaverpictures {
+    width: 20rem;
+  }
+
+  .centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .xaverlogo {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .xaverpictures2 {
+    width: 20rem;
+  }
+
+  .lostcity {
+    width: 25rem;
+  }
+
+  button:hover {
+    background-color: #0f0f0f00;
+  }
+}
