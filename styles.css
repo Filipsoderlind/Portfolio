@@ -186,7 +186,9 @@ section {
 
   .designer {
     width: 20rem;
-    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9rem;
   }
 
   h3 {
@@ -238,8 +240,5 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .designer {
-    margin-bottom: 9rem;
   }
 }
